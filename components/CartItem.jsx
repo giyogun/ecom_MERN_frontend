@@ -11,7 +11,7 @@ const CartItem = ({ product }) => {
         <img src={image[0]} />
         <div className="summary">
           <h4>{name}</h4>
-          <span className="price-cart-item">{price}</span>
+          <span className="price-cart-item">{`$${price}`}</span>
           <span className="amount">x {qty}</span>
         </div>
       </div>
